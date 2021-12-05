@@ -9,8 +9,8 @@ namespace Day_5_1
         static void Main(string[] args)
         {
             //Read input
-            //StreamReader sr = new StreamReader("input.txt");
-            StreamReader sr = new StreamReader("testinput.txt");
+            StreamReader sr = new StreamReader("input.txt");
+            //StreamReader sr = new StreamReader("testinput.txt");
             List<string> input = new List<string>();
 
             while (!sr.EndOfStream)
@@ -27,20 +27,7 @@ namespace Day_5_1
             //"Draw" lines into array
             DrawLines(input, lineTracker);
 
-            //Test output
-            string output;
-
-            for (int i = 0; i < lineTracker.GetLength(1); i++)
-            {
-                output = "";
-
-                for (int j = 0; j < lineTracker.GetLength(0); j++)
-                {
-                    output += lineTracker[j, i].ToString();
-                }
-
-                Console.WriteLine(output);
-            }
+            //OutputTracker(lineTracker);
 
             //Check for 2+
             int crossings = 0;
@@ -57,6 +44,23 @@ namespace Day_5_1
             }
 
             Console.WriteLine(crossings);
+        }
+
+        static void OutputTracker(int[,] tracker)
+        {
+            string output;
+
+            for (int i = 0; i < tracker.GetLength(1); i++)
+            {
+                output = "";
+
+                for (int j = 0; j < tracker.GetLength(0); j++)
+                {
+                    output += tracker[j, i].ToString();
+                }
+
+                Console.WriteLine(output);
+            }
         }
 
         static void GetMax(List<string> input, out int maxX, out int maxY)
@@ -123,7 +127,6 @@ namespace Day_5_1
                         {
                             tracker[coords[0], coords[1] + i]++;
                         }
-
                     }
                 }
                 else if ((coords[1] - coords[3]) == 0)
@@ -147,13 +150,30 @@ namespace Day_5_1
                         {
                             tracker[coords[0] + i, coords[3]]++;
                         }
-
                     }
                 }
                 else
                 {
                     //This line is diagonal
+                    int multiplicatorX = 1;
+                    int multiplicatorY = 1;
 
+                    int length = Math.Abs(coords[2] - coords[0]);
+                    length++;
+
+                    if ((coords[2] - coords[0]) < 0)
+                    {
+                        multiplicatorX = -1;
+                    }
+                    if ((coords[3] - coords[1]) < 0)
+                    {
+                        multiplicatorY = -1;
+                    }
+
+                    for (int i = 0; i < length; i++)
+                    {
+                        tracker[coords[0] + (i * multiplicatorX), coords[1] + (i * multiplicatorY)]++;
+                    }
                 }
             }
         }

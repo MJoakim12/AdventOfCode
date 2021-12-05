@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Joko\\OneDrive - Fachhochschule Salzburg GmbH\\_Other\\AdventOfCode\\Neuer Ordner\\Day 5-1\\Day 5-1.csproj",
+      "projectUniqueName": "C:\\Users\\Joko\\OneDrive - Fachhochschule Salzburg GmbH\\_Other\\AdventOfCode\\Day 5-1\\Day 5-1.csproj",
       "projectName": "Day 5-1",
-      "projectPath": "C:\\Users\\Joko\\OneDrive - Fachhochschule Salzburg GmbH\\_Other\\AdventOfCode\\Neuer Ordner\\Day 5-1\\Day 5-1.csproj",
+      "projectPath": "C:\\Users\\Joko\\OneDrive - Fachhochschule Salzburg GmbH\\_Other\\AdventOfCode\\Day 5-1\\Day 5-1.csproj",
       "packagesPath": "C:\\Users\\Joko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Joko\\OneDrive - Fachhochschule Salzburg GmbH\\_Other\\AdventOfCode\\Neuer Ordner\\Day 5-1\\obj\\",
+      "outputPath": "C:\\Users\\Joko\\OneDrive - Fachhochschule Salzburg GmbH\\_Other\\AdventOfCode\\Day 5-1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Joko\\AppData\\Roaming\\NuGet\\NuGet.Config",
