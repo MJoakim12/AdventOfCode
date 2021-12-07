@@ -1,0 +1,16 @@
+C:\Users\Joko\OneDrive - Fachhochschule Salzburg GmbH\_Other\AdventOfCode\Day 7\bin\Debug\net5.0\Day 7.exe
+C:\Users\Joko\OneDrive - Fachhochschule Salzburg GmbH\_Other\AdventOfCode\Day 7\bin\Debug\net5.0\Day 7.deps.json
+C:\Users\Joko\OneDrive - Fachhochschule Salzburg GmbH\_Other\AdventOfCode\Day 7\bin\Debug\net5.0\Day 7.runtimeconfig.json
+C:\Users\Joko\OneDrive - Fachhochschule Salzburg GmbH\_Other\AdventOfCode\Day 7\bin\Debug\net5.0\Day 7.runtimeconfig.dev.json
+C:\Users\Joko\OneDrive - Fachhochschule Salzburg GmbH\_Other\AdventOfCode\Day 7\bin\Debug\net5.0\Day 7.dll
+C:\Users\Joko\OneDrive - Fachhochschule Salzburg GmbH\_Other\AdventOfCode\Day 7\bin\Debug\net5.0\ref\Day 7.dll
+C:\Users\Joko\OneDrive - Fachhochschule Salzburg GmbH\_Other\AdventOfCode\Day 7\bin\Debug\net5.0\Day 7.pdb
+C:\Users\Joko\OneDrive - Fachhochschule Salzburg GmbH\_Other\AdventOfCode\Day 7\obj\Debug\net5.0\Day 7.csproj.AssemblyReference.cache
+C:\Users\Joko\OneDrive - Fachhochschule Salzburg GmbH\_Other\AdventOfCode\Day 7\obj\Debug\net5.0\Day 7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joko\OneDrive - Fachhochschule Salzburg GmbH\_Other\AdventOfCode\Day 7\obj\Debug\net5.0\Day 7.AssemblyInfoInputs.cache
+C:\Users\Joko\OneDrive - Fachhochschule Salzburg GmbH\_Other\AdventOfCode\Day 7\obj\Debug\net5.0\Day 7.AssemblyInfo.cs
+C:\Users\Joko\OneDrive - Fachhochschule Salzburg GmbH\_Other\AdventOfCode\Day 7\obj\Debug\net5.0\Day 7.csproj.CoreCompileInputs.cache
+C:\Users\Joko\OneDrive - Fachhochschule Salzburg GmbH\_Other\AdventOfCode\Day 7\obj\Debug\net5.0\Day 7.dll
+C:\Users\Joko\OneDrive - Fachhochschule Salzburg GmbH\_Other\AdventOfCode\Day 7\obj\Debug\net5.0\ref\Day 7.dll
+C:\Users\Joko\OneDrive - Fachhochschule Salzburg GmbH\_Other\AdventOfCode\Day 7\obj\Debug\net5.0\Day 7.pdb
+C:\Users\Joko\OneDrive - Fachhochschule Salzburg GmbH\_Other\AdventOfCode\Day 7\obj\Debug\net5.0\Day 7.genruntimeconfig.cache
