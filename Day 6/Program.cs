@@ -38,7 +38,7 @@ namespace Day_6
 
                 fish[7] += fish[0]; //Add age -1 to age 6
                 fish[9] += fish[0];//Add age -1 to age 8
-                fish[0] = 0; //Set age
+                fish[0] = 0; //Set age -1 to 0
             }
 
             Console.WriteLine($"After {days} days, there are a total of {fish.Sum()} fish!");
